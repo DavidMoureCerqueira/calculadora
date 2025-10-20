@@ -23,7 +23,8 @@ match opcion:
         from suma import sumar
         resultado=sumar(num1, num2)
     case 2:
-        resultado=num1-num2
+        from resta import restar
+        resultado=restar(num1-num2)
     case 3:
         pass
     case 4:
