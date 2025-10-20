@@ -1,0 +1,34 @@
+print("Bienvenido a la calculadora donde podras hacer las operaciones de suma, resta, multiplicación y división sobre dos digitos")
+
+try:
+    opcion=int(input("""
+                 1.Sumar
+                 2.Restar
+                 3.Multiplicar
+                 4.Dividir
+                 >"""))
+except ValueError:
+    print("El valor introducido no es correcto, entre 1 y 4.")
+    
+try:
+    num1=int(input("Introduzca el primer numero\n"))
+    num2=int(input("Introduzca el segundo numero\n"))
+
+except ValueError:
+    print("No ha introducido un valor válido")
+resultado=None
+match opcion:
+    
+    case 1:
+        pass
+    case 2:
+        pass
+    case 3:
+        pass
+    case 4:
+        pass
+    case _:
+        "No ha introducido un valor válido"
+
+if resultado is not None:
+    print("El resultado de la operacion es: " , resultado)     
