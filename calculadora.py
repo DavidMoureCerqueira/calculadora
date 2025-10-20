@@ -20,7 +20,8 @@ resultado=None
 match opcion:
     
     case 1:
-        pass
+        from suma import sumar
+        resultado=sumar(num1, num2)
     case 2:
         pass
     case 3:
