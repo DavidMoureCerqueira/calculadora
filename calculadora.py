@@ -20,9 +20,11 @@ resultado=None
 match opcion:
     
     case 1:
-        pass
+        from suma import sumar
+        resultado=sumar(num1, num2)
     case 2:
-        pass
+        from resta import restar
+        resultado=restar(num1-num2)
     case 3:
         pass
     case 4:
