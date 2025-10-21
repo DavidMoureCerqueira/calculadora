@@ -20,8 +20,7 @@ resultado=None
 match opcion:
     
     case 1:
-        from suma import sumar
-        resultado=56
+        from suma import sumar   
         resultado=sumar(num1, num2)
     case 2:
         from resta import restar
