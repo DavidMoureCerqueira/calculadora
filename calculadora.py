@@ -30,7 +30,8 @@ match opcion:
         from multiplicar import multiplicar
         resultado=multiplicar(num1,num2)
     case 4:
-        pass
+        from division import dividir
+        resultado=dividir(num1,num2)
     case _:
         "No ha introducido un valor válido"
 
