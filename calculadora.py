@@ -20,13 +20,14 @@ resultado=None
 match opcion:
     
     case 1:
-        from suma import sumar
+        from suma import sumar   
         resultado=sumar(num1, num2)
     case 2:
         from resta import restar
-        resultado=restar(num1-num2)
+        resultado=restar(num1,num2)
     case 3:
-        pass
+        from multiplicar import multiplicar
+        resultado=multiplicar(num1,num2)
     case 4:
         from division import dividir
         resultado=dividir(num1,num2)
