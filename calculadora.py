@@ -26,7 +26,8 @@ match opcion:
     case 3:
         pass
     case 4:
-        pass
+        from division import dividir
+        resultado=dividir(num1,num2)
     case _:
         "No ha introducido un valor válido"
 
