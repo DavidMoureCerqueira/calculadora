@@ -31,7 +31,7 @@ match opcion:
         from division import dividir
         resultado=dividir(num1,num2)
     case _:
-        print("No ha introducido un valor válido")
+        print("No ha introducido un valor válido, reinicie el programa")
 
 if resultado is not None:
     print("El resultado de la operacion es: " , resultado)     
