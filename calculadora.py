@@ -24,9 +24,10 @@ match opcion:
         resultado=sumar(num1, num2)
     case 2:
         from resta import restar
-        resultado=restar(num1-num2)
+        resultado=restar(num1,num2)
     case 3:
-        pass
+        from multiplicar import multiplicar
+        resultado=multiplicar(num1,num2)
     case 4:
         pass
     case _:
