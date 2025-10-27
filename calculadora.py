@@ -29,8 +29,12 @@ match opcion:
         from multiplicar import multiplicar
         resultado=multiplicar(num1,num2)
     case 4:
-        from division import dividir
-        resultado=dividir(num1,num2)
+        try:
+            from division import dividir
+            
+            resultado=dividir(num1,num2)
+        except ZeroDivisionError:
+            print("No es posible dividir entre 0")
     case _:
         print("No ha introducido un valor válido, reinicie el programa")
 
